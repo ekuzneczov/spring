@@ -1,0 +1,14 @@
+db:
+  username: test
+  password: test
+spring:
+  jpa:
+    properties:
+      hibernate:
+        hbm2ddl:
+          auto:  validate
+  datasource:
+#    url: jdbc:postgresql://localhost:5433/postgres
+    username: test
+    password: test
+#    driver-class-name: org.postgresql.Driver
